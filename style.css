@@ -1,0 +1,41 @@
+body {
+    background: url('./img/noite.png') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    transition: background-image 1s ease;
+    margin: 0;
+    padding: 0;
+
+}
+
+.clock {
+    border-radius: 20px;
+    width: 470px;
+    height: 260px;
+    background-color: rgba(128, 128, 128, 0.500);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.clock div {
+    background-color: rgba(211, 211, 211, 0.600);
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock h1 {
+    color: rgb(0, 0, 0);
+    font-size: 10em;
+    margin: 0;
+}
